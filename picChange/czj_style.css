@@ -1,0 +1,13 @@
+﻿/*-----------------------大图展示--------------------------------*/
+#flash { width:960px; height:506px; overflow:hidden; margin:0 auto; margin-bottom:10px; clear:both; position:relative;}
+#flash a {width:960px; height:506px; display:none;}
+#flash img {width:960px; height:506px;/* display:none;*/}
+#flash1{ background:url(images/pic1.jpg) no-repeat;}
+#flash2{ background:url(images/pic2.jpg) no-repeat;}
+#flash3{ background:url(images/pic3.jpg) no-repeat;}
+#flash4{ background:url(images/pic4.jpg) no-repeat;}
+.flash_bar { width:510px; padding-left:450px; z-index:69; height:32px; overflow:hidden; position:absolute;padding-top:13px!important; padding-top:12px; bottom:0px; left:0px; background:url(images/yw_flashbar.png) no-repeat left 14px; text-align:center;}
+.flash_bar .dq { display:block; float:left; width:8px; height:8px; margin:12px 5px; /* background: url(images/tg_flash_p.png) no-repeat 0px 0px;*/ cursor:pointer;
+background:url(images/yw_flash_blue.png) no-repeat 0px 0px; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="yw_flash_p.png" ,sizingMethod="crop"); }
+.flash_bar .no { display:block; float:left; width:8px; height:8px; margin:12px 5px; /* background: url(images/tg_flash_p.png) no-repeat 0px 0px;*/ cursor:pointer;
+background:url(images/yw_flash_p2.png) no-repeat 0px 0px; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="yw_flash_p2.png" ,sizingMethod="crop"); }
